@@ -12,7 +12,7 @@ function startAddGoalHandler(){
   setModalIsVisible(true);
 }
 
-function endAddGoalHandler(){
+function endAddGoalHandler() {
   setModalIsVisible(false);
 }
 
