@@ -1,8 +1,8 @@
 import { View, Text, Image, StyleSheet, Dimensions, useWindowDimensions, ScrollView } from "react-native";
 
-import Title from "../components/ui/Title";
-import Colors from "../constants/colors";
-import PrimaryButton from "../components/ui/PrimaryButton";
+import Title from "../assets/components/ui/Title";
+import Colors from "../GuessNumberGameFilesOnly/constants/colors";
+import PrimaryButton from "../assets/components/ui/PrimaryButton";
 function GameOverScreen({roundsNumber, userNumber, onStartNewGame}) {
 
     const {width, height} = useWindowDimensions();

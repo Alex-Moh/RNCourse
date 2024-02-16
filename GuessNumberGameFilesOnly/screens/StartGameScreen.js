@@ -1,11 +1,11 @@
 import { TextInput, Button, View, StyleSheet, Alert, Dimensions, useWindowDimensions, KeyboardAvoidingView, ScrollView } from "react-native";
 import { useState } from "react";
 
-import PrimaryButton from "../components/ui/PrimaryButton";
-import Colors from "../constants/colors";
-import Title from "../components/ui/Title";
-import Card from "../components/ui/Card";
-import InstructionText from "../components/ui/InstructionText";
+import PrimaryButton from "../assets/components/ui/PrimaryButton";
+import Colors from "../GuessNumberGameFilesOnly/constants/colors";
+import Title from "../assets/components/ui/Title";
+import Card from "../assets/components/ui/Card";
+import InstructionText from "../assets/components/ui/InstructionText";
 
 function StartGameScreen({onPickNumber}){
     const [enteredNumber, setEnteredNumber] = useState('');
